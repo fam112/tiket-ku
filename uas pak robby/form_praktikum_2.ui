@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1317</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1161</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="page">
+     <widget class="QWidget" name="formLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1161</width>
+        <height>551</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>PELANGGAN</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>nama</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="nama_txt018"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>email</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="email_txt018"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>noTelp</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="noTelp_txt018"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>alamat</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="alamat_txt018"/>
+       </item>
+       <item row="6" column="1">
+        <widget class="QPushButton" name="btn_simpan018">
+         <property name="text">
+          <string>simpan</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QPushButton" name="btn_edit018">
+         <property name="text">
+          <string>edit</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QPushButton" name="btn_hapus018_2">
+         <property name="text">
+          <string>hapus</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QTableWidget" name="tabelpelanggan018">
+         <row>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>5</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>nama</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>email</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>noTelp</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>alamat</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>tanggal lahir</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>baim</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>baim@gmail.com</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>08123456</string>
+          </property>
+         </item>
+         <item row="0" column="3">
+          <property name="text">
+           <string>pekalongan</string>
+          </property>
+         </item>
+         <item row="0" column="4">
+          <property name="text">
+           <string>16-01-2000</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>lutfir</string>
+          </property>
+         </item>
+         <item row="1" column="1">
+          <property name="text">
+           <string>lutfir@gmail.com</string>
+          </property>
+         </item>
+         <item row="1" column="2">
+          <property name="text">
+           <string>08654321</string>
+          </property>
+         </item>
+         <item row="1" column="3">
+          <property name="text">
+           <string>solo</string>
+          </property>
+         </item>
+         <item row="1" column="4">
+          <property name="text">
+           <string>19-04-1945</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>rahman</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>rahman@gmail.com</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>08923454</string>
+          </property>
+         </item>
+         <item row="2" column="3">
+          <property name="text">
+           <string>colomadu</string>
+          </property>
+         </item>
+         <item row="2" column="4">
+          <property name="text">
+           <string>20-12-2004</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>rehan</string>
+          </property>
+         </item>
+         <item row="3" column="1">
+          <property name="text">
+           <string>rehan@gmail.com</string>
+          </property>
+         </item>
+         <item row="3" column="2">
+          <property name="text">
+           <string>08765327</string>
+          </property>
+         </item>
+         <item row="3" column="3">
+          <property name="text">
+           <string>sukoharjo</string>
+          </property>
+         </item>
+         <item row="3" column="4">
+          <property name="text">
+           <string>30-07-2001</string>
+          </property>
+         </item>
+         <item row="4" column="0">
+          <property name="text">
+           <string>ahmad</string>
+          </property>
+         </item>
+         <item row="4" column="1">
+          <property name="text">
+           <string>ahmad@gmail.com</string>
+          </property>
+         </item>
+         <item row="4" column="2">
+          <property name="text">
+           <string>08523412</string>
+          </property>
+         </item>
+         <item row="4" column="3">
+          <property name="text">
+           <string>kudus</string>
+          </property>
+         </item>
+         <item row="4" column="4">
+          <property name="text">
+           <string>28-02-1999</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="tanggallahir_txt018"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_17">
+         <property name="text">
+          <string>tanggal lahir</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QWidget" name="formLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1161</width>
+        <height>551</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout_2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>TRANSAKSI</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>nama</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>idbayar</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>noRek</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>tanggal</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>pembelian</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="nama_txt012"/>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="idbayar_txt012"/>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="noRek_txt012"/>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="tanggal_txt012"/>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="pembelian_txt012"/>
+       </item>
+       <item row="6" column="1">
+        <widget class="QPushButton" name="btn_simpan012">
+         <property name="text">
+          <string>simpan</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QPushButton" name="btn_edit012">
+         <property name="text">
+          <string>edit</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QPushButton" name="btn_hapus012">
+         <property name="text">
+          <string>hapus</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QTableWidget" name="tabeltransaksi012">
+         <row>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>5</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>nama</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>idbayar</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>noRek</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>tanggal</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>pembelian</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>baim</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>MdzRx7</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>182881</string>
+          </property>
+         </item>
+         <item row="0" column="3">
+          <property name="text">
+           <string>12-APR-2025</string>
+          </property>
+         </item>
+         <item row="0" column="4">
+          <property name="text">
+           <string>konserA</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>lutfir</string>
+          </property>
+         </item>
+         <item row="1" column="1">
+          <property name="text">
+           <string>8MWf30</string>
+          </property>
+         </item>
+         <item row="1" column="2">
+          <property name="text">
+           <string>217166</string>
+          </property>
+         </item>
+         <item row="1" column="3">
+          <property name="text">
+           <string>30-JAN-2025</string>
+          </property>
+         </item>
+         <item row="1" column="4">
+          <property name="text">
+           <string>konserB</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>rahman</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>GT3911</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>352617</string>
+          </property>
+         </item>
+         <item row="2" column="3">
+          <property name="text">
+           <string>21-FEB-2025</string>
+          </property>
+         </item>
+         <item row="2" column="4">
+          <property name="text">
+           <string>konserC</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>rehan</string>
+          </property>
+         </item>
+         <item row="3" column="1">
+          <property name="text">
+           <string>RB21GG</string>
+          </property>
+         </item>
+         <item row="3" column="2">
+          <property name="text">
+           <string>829936</string>
+          </property>
+         </item>
+         <item row="3" column="3">
+          <property name="text">
+           <string>10-JULI-2025</string>
+          </property>
+         </item>
+         <item row="3" column="4">
+          <property name="text">
+           <string>konserD</string>
+          </property>
+         </item>
+         <item row="4" column="0">
+          <property name="text">
+           <string>ahmad</string>
+          </property>
+         </item>
+         <item row="4" column="1">
+          <property name="text">
+           <string>Sf90sPdr</string>
+          </property>
+         </item>
+         <item row="4" column="2">
+          <property name="text">
+           <string>746638</string>
+          </property>
+         </item>
+         <item row="4" column="3">
+          <property name="text">
+           <string>9-MAR-2025</string>
+          </property>
+         </item>
+         <item row="4" column="4">
+          <property name="text">
+           <string>konserE</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QWidget" name="formLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1161</width>
+        <height>551</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout_3">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_12">
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>TIKET</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>nama event</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="namaevent_txt019"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_14">
+         <property name="text">
+          <string>jenis tiket</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="jenistiket_txt019"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_15">
+         <property name="text">
+          <string>alamat event</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="alamatevent_txt019"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_16">
+         <property name="text">
+          <string>idtiket</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="idtiket_txt019"/>
+       </item>
+       <item row="6" column="1">
+        <widget class="QPushButton" name="btn_simpan019">
+         <property name="text">
+          <string>simpan</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QPushButton" name="btn_edit019">
+         <property name="text">
+          <string>edit</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QPushButton" name="btn_hapus019">
+         <property name="text">
+          <string>hapus</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QTableWidget" name="tabeltiket019">
+         <row>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>5</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>nama event</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>jenis tiket</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>alamat event</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>idTiket</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>jam mulai</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>Jateng Fest</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>reguler</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>semarang</string>
+          </property>
+         </item>
+         <item row="0" column="3">
+          <property name="text">
+           <string>JfR1smr001</string>
+          </property>
+         </item>
+         <item row="0" column="4">
+          <property name="text">
+           <string>20.00</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>Hammersonic Fest</string>
+          </property>
+         </item>
+         <item row="1" column="1">
+          <property name="text">
+           <string>VIP</string>
+          </property>
+         </item>
+         <item row="1" column="2">
+          <property name="text">
+           <string>jakarta</string>
+          </property>
+         </item>
+         <item row="1" column="3">
+          <property name="text">
+           <string>HmrsV3jk01</string>
+          </property>
+         </item>
+         <item row="1" column="4">
+          <property name="text">
+           <string>00.00</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>pestapora</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>Mid</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>bandung</string>
+          </property>
+         </item>
+         <item row="2" column="3">
+          <property name="text">
+           <string>psTpM2bd002</string>
+          </property>
+         </item>
+         <item row="2" column="4">
+          <property name="text">
+           <string>09.30</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>devasana</string>
+          </property>
+         </item>
+         <item row="3" column="1">
+          <property name="text">
+           <string>Mid</string>
+          </property>
+         </item>
+         <item row="3" column="2">
+          <property name="text">
+           <string>surabaya</string>
+          </property>
+         </item>
+         <item row="3" column="3">
+          <property name="text">
+           <string>dVsM2sby003</string>
+          </property>
+         </item>
+         <item row="3" column="4">
+          <property name="text">
+           <string>19.45</string>
+          </property>
+         </item>
+         <item row="4" column="0">
+          <property name="text">
+           <string>nexus Fest</string>
+          </property>
+         </item>
+         <item row="4" column="1">
+          <property name="text">
+           <string>VIP</string>
+          </property>
+         </item>
+         <item row="4" column="2">
+          <property name="text">
+           <string>solo</string>
+          </property>
+         </item>
+         <item row="4" column="3">
+          <property name="text">
+           <string>NfV3sl007</string>
+          </property>
+         </item>
+         <item row="4" column="4">
+          <property name="text">
+           <string>15.35</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="jammulai_txt019"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_18">
+         <property name="text">
+          <string>jam mulai</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1317</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menupemesanan">
+    <property name="title">
+     <string>pemesanan</string>
+    </property>
+    <addaction name="actionpelanggan"/>
+    <addaction name="actiontransaksi"/>
+    <addaction name="actiontiket"/>
+   </widget>
+   <addaction name="menupemesanan"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionpelanggan">
+   <property name="text">
+    <string>pelanggan</string>
+   </property>
+  </action>
+  <action name="actiontransaksi">
+   <property name="text">
+    <string>transaksi</string>
+   </property>
+  </action>
+  <action name="actiontiket">
+   <property name="text">
+    <string>tiket</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
